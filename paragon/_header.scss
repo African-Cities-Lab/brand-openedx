@@ -144,9 +144,10 @@
             margin: 15px 0 15px 35px !important;
             @include media-breakpoint-up(lg) {
                 margin: 0 18px 0 0 !important;
+                padding: 0 !important;
             }
             img {
-                height: 21px;
+                height: 40px;
             }
        }
         .main-nav {

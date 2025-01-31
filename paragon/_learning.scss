@@ -227,3 +227,26 @@ div[data-learner-type=b2c_learner] {
         }
     }
 }
+#courseHome-outline{
+   .collapsible-body{
+    ol{
+        li{
+            a{
+                color: $primary !important;
+            }
+        }
+    }
+   }
+}
+
+.pgn__data-table-row{
+    .pgn__data-table-cell-wrap{
+        .pgn_collapsible{
+            .small{
+                a{
+                    color: $primary !important;
+                }
+            }
+        }
+    }
+}
