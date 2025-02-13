@@ -74,6 +74,9 @@ position: static;
     background: $primary;
     margin: 0 0 0 12px;
     white-space: nowrap;
+    &:hover{
+        background: transparent !important;
+    }
     }
     .pgn__searchfield {
     border: none;
