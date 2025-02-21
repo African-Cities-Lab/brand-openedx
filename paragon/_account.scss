@@ -259,3 +259,13 @@
         }
     } 
 }
+.btn-danger{
+    color: #fff !important;
+    border: 2px solid transparent !important;
+    background-color: $primary !important;
+    &:hover{
+        background: transparent !important;
+        border: 2px solid $primary !important;
+    }
+
+}
