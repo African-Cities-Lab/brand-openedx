@@ -402,7 +402,9 @@ body.indigo-dark-theme .btn-primary{
        border: 2px solid $primary !important;
     }
 }
-
+.pgn__form-group .pgn__form-control-floating-label .pgn__form-control-floating-label-text{
+    background-color: white !important;
+}
 //allpages acl over ride
 input[type="checkbox"], input[type="radio"]{
     accent-color: $primary !important; 

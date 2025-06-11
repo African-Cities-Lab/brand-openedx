@@ -302,7 +302,9 @@ input.form-control:hover {
         display: none
     }
 }
-
+.pgn__form-group .pgn__form-control-floating-label .pgn__form-control-floating-label-text{
+    background-color: white !important;
+}
 // app mfe
 [dir=ltr] #root header a.logo {
     margin-right: 1.75rem;
