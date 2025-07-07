@@ -437,3 +437,9 @@ a.alert-link{
 
     }
 }
+#registration-form::before {
+    content: "In order to comply with data protection legislation, we ask that you do not include any personal information (surname, first name, email address, etc.) in your public username. It must remain anonymous.";
+    font-size: 12px;
+    display: block;
+    padding-bottom: 20px;
+}
