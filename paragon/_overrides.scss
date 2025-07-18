@@ -442,6 +442,23 @@ input[type="checkbox"], input[type="radio"]{
         }
     }
 }
+#registration-form[lang="en-US"]::before {
+    content: "In order to comply with data protection legislation, we ask that you do not include any personal information (surname, first name, email address, etc.) in your public username. It must remain anonymous.";
+    font-size: 12px;
+    display: block;
+    padding-bottom: 20px;
+}
+#registration-form[lang="fr"]::before {
+    content: "Afin de respecter la législation sur la protection des données, nous vous demandons de ne pas inclure d’informations personnelles (nom, prénom, adresse e-mail, etc.) dans votre nom d’utilisateur publique. Celui-ci doit rester anonyme.";
+    font-size: 12px;
+    display: block;
+    padding-bottom: 20px;
+}
+#registration-form[lang="fr-ca"]::before {
+    content: "Afin de respecter la législation sur la protection des données, nous vous demandons de ne pas inclure d’informations personnelles (nom, prénom, adresse e-mail, etc.) dans votre nom d’utilisateur publique. Celui-ci doit rester anonyme.";
+    font-size: 12px;
+    display: block;
+    padding-bottom: 20px;
 @import "./header";
 @import "./footer";
 @import "./login";
